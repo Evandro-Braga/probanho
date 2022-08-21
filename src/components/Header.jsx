@@ -33,10 +33,10 @@ export default function Header() {
                 </div>
             </div>
 
-            <div className='md:flex justify-between py-4 items-center m-auto md:max-w-screen-lg'>
+            <div className='md:flex justify-between py-4 items-center m-auto md:max-w-screen-lg px-2 md:px-0'>
                 <div>
                     <a href="#banner">
-                        <img src={logo} alt="logo pro banho" width={100} />
+                        <img src={logo} alt="logo pro banho" width={120} />
                     </a>
                 </div>
 
@@ -48,9 +48,9 @@ export default function Header() {
                 <div>
                     <ul className={`md:flex space-x-0 md:space-x-8 md:items-center absolute md:static
                     bg-slate-50 md:z-auto z.[-1] left-0 w-full md:w-auto transition-all duration-500
-                    ease-in p-8 md:p-0 ${open ? 'top-35' : 'top-[-500px]'}`}>
+                    ease-in p-4 md:p-0 ${open ? 'top-35' : 'top-[-500px]'}`}>
                         {links.map((link, i) =>
-                            <li className='my-7 md:my-0 text-xl md:text-lg' key={i}>
+                            <li className='my-7 md:my-0 text-xl md:text-base font-semibold' key={i}>
                                 <a href={link.link}>
                                     {link.name}
                                 </a>

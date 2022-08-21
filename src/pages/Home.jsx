@@ -13,8 +13,8 @@ export default function Home() {
 
             <div className='p-4'>
                 <div className="md:max-w-screen-lg m-auto text-center py-28" id='porque'>
-                    <h2 className="text-4xl mb-8 font-bold">
-                        Porque contratar um cuidador?
+                    <h2 className="text-3xl mb-8 font-bold">
+                        PORQUE CONTRATAR UM CUIDADOR?
                     </h2>
                     <p className="text-lg">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
@@ -34,8 +34,8 @@ export default function Home() {
 
             <div className='p-4'>
                 <div className="md:max-w-screen-lg m-auto text-center py-28" id='sobre'>
-                    <h2 className='text-4xl mb-8 font-bold'>
-                        Sobre Nós
+                    <h2 className='text-3xl mb-8 font-bold'>
+                        SOBRE
                     </h2>
                     <p className='text-lg'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
@@ -48,8 +48,8 @@ export default function Home() {
 
             <div id='servicos' className='bg-blue-100'>
                 <div className="md:max-w-screen-lg m-auto text-center py-28" id='sobre'>
-                    <h2 className='text-4xl mb-8 font-bold'>
-                        Serviços
+                    <h2 className='text-3xl mb-8 font-bold'>
+                        SERVIÇOS
                     </h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16'>
                         <div className='space-y-4 p-4'>
