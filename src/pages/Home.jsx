@@ -72,7 +72,7 @@ export default function Home() {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
                                 eget orci rutrum, ut vestibulum ipsum vulputate. Proin nec nibh et sem faucibus auctor.
-                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci..
+                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci.
                             </p>
                         </div>
 
