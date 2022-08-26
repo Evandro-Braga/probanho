@@ -4,5 +4,9 @@
 
 body {
     background-color: #F8F8FF;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }

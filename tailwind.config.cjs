@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'cuidador': "url('/src/assets/images/imgCuidador.png')",
+        'bg-banner': "url('/src/assets/images/bg-banner.png')",
+        'bg-contato': "url('/src/assets/images/bg-contato.jpg')"
+
       }
     },
   },
