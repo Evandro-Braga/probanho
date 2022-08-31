@@ -8,7 +8,6 @@ module.exports = {
       backgroundImage: {
         'bg-banner': "url('/src/assets/images/bg-banner.png')",
         'bg-contato': "url('/src/assets/images/bg-contato.jpg')"
-
       }
     },
   },

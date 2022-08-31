@@ -20,28 +20,25 @@ function Home() {
             </div>
 
             <div className="bg-gradient-to-b from-cyan-800 to-cyan-900">
-                <div className='max-w-screen-xl m-auto text-white py-32 px-2 md:px-0' id='sobre'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8'>
+                <div className='max-w-screen-xl m-auto text-white py-32 px-2 md:px-0 space-y-16' id='sobre'>
+                    <div className='text-center '>
+                        <h2 className='text-3xl font-bold'>
+                            SOBRE NÓS
+                        </h2>
+                    </div>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-32'>
                         <div className='text-center'>
-                            <h2 className='text-2xl mb-8 font-bold'>
+                            <h3 className='text-2xl mb-8 font-bold'>
                                 NOSSA MISSÃO
-                            </h2>
+                            </h3>
                             <p className='text-lg'>
                                 Através do cuidado humanizado poder promover segurança, bem-estar e melhoria da qualidade de vida de seus pacientes no conforto do seu lar.
                             </p>
                         </div>
                         <div className='text-center'>
-                            <h2 className="text-2xl mb-8 font-bold">
-                                PORQUE CONTRATAR UM CUIDADOR?
-                            </h2>
-                            <p className="text-lg">
-                                Mais do que evitar acidentes, os cuidadores oferecem total apoio na rotina do idoso, atuando, inclusive, na adoção de hábitos saudáveis. Eles oferecem auxílio na alimentação, minimizando riscos de desnutrição e desidratação. Além disso, podem ajudar o idoso na realização de atividades físicas.
-                            </p>
-                        </div>
-                        <div className='text-center'>
-                            <h2 className='text-2xl mb-8 font-bold'>
+                            <h3 className='text-2xl mb-8 font-bold'>
                                 VISÃO E VALORES
-                            </h2>
+                            </h3>
                             <p className='text-lg'>
                                 Comprometimento, paciência e dedicação em cuidar de quem você mais ama, de maneira humanizada e acolhedora.
                             </p>
@@ -65,12 +62,10 @@ function Home() {
                         <div className='space-y-4 p-4'>
                             <img className='m-auto' src="https://img.icons8.com/color/96/000000/bath.png" />
                             <h3 className='text-2xl'>
-                                Banho no leito
+                                Banho
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
-                                eget orci rutrum, ut vestibulum ipsum vulputate. Proin nec nibh et sem faucibus auctor.
-                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci.
+                                Serviço de banho no leito, cadeira e aspersão.
                             </p>
                         </div>
 
@@ -80,9 +75,7 @@ function Home() {
                                 Treinamento para a familia
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
-                                eget orci rutrum, ut vestibulum ipsum vulputate. Proin nec nibh et sem faucibus auctor.
-                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci.
+                                Realizamos um treinamento para a familia lidar com o paciente acamado pós alta do hospital.
                             </p>
                         </div>
 
@@ -92,9 +85,7 @@ function Home() {
                                 Assistencia social
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
-                                eget orci rutrum, ut vestibulum ipsum vulputate. Proin nec nibh et sem faucibus auctor.
-                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci.
+                                Temos assistentes sociais para cuidar de toda a sua familia.
                             </p>
                         </div>
 
@@ -104,9 +95,7 @@ function Home() {
                                 Cuidado 24H
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
-                                eget orci rutrum, ut vestibulum ipsum vulputate. Proin nec nibh et sem faucibus auctor.
-                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci.
+                                Plantão de cuidador ou técnico de enfermagem 6 horas, 12 horas ou 24 horas.
                             </p>
                         </div>
 
@@ -116,9 +105,7 @@ function Home() {
                                 Curativos
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus
-                                eget orci rutrum, ut vestibulum ipsum vulputate. Proin nec nibh et sem faucibus auctor.
-                                Nunc odio enim, varius eget neque quis, pulvinar tempor orci.
+                                Fazemos curativos e trocas de curativos com a limpeza do ferimento.
                             </p>
                         </div>
                     </div>
